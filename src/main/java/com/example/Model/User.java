@@ -10,6 +10,7 @@ import jakarta.persistence.Table;
 public class User {
 
 	@Id
+	@Column(name="data")
 	private int id;
 	
 	private String username;
